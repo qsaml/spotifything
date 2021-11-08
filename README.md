@@ -1,2 +1,2 @@
 # spotifything
-I hate this class
+I hate this class and I hate my life
