@@ -1,11 +1,13 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
+import { loginURL } from './Spotify';
 
-const useStyles = makeStyles ({
+const useStyles = makeStyles({
   login: {
     display: 'grid',
     placeItems: 'center',
     height: '20vh',
+    backgroundColor: 'white',
 
     '& img': {
       width: '50%',
@@ -32,7 +34,7 @@ function Login() {
   const classes = useStyles()
   return (
     <div className={classes.login}>
-        <a href="#">LOGIN WITH SPOTIFY.</a>
+      <a href={loginURL}>LOGIN WITH SPOTIFY.</a>
     </div>
   )
 }
